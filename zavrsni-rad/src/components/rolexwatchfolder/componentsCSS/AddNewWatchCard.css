@@ -1,0 +1,11 @@
+.add_new_watch{
+    height: 280px;
+    width: 190px;
+    background-color: rgb(247, 247, 247);
+    display: grid;
+    place-items: center;
+}
+
+.add_new_watch:hover{
+    background-color: rgb(189, 188, 185);
+}

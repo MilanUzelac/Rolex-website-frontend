@@ -1,0 +1,15 @@
+.user__cart_wrapper{
+    height: 100vh;
+    width: 60%;
+    background-color: orange;
+    margin-top: 220px;
+    margin: 220px auto 50px auto;
+
+}
+
+.user__watches_cart{
+    padding-top: 30px;
+    height: 700px;
+    width: 100%;
+    background-color: greenyellow;
+}

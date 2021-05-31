@@ -1,0 +1,54 @@
+.model-dial-wrapper{
+    width: 100%;
+    padding-top: 4px !important;
+    padding: 20px 15px 0px 15px;
+}
+
+.model-dial-head{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 12px 0px;
+    
+}
+
+.model-dial-wrapper img{
+    width: 94%;
+}
+
+.model-dial-prop{
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.model-dial-p{
+    margin-top: 3px;
+    color: gray;
+    width: 93%;
+}
+
+
+@media only screen and (max-width: 950px){
+    .model-dial-wrapper{
+        padding:12px;
+        padding-top: 4px !important;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .model-dial-wrapper{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .model-dial-wrapper{
+        width: 95.5%;
+        margin-bottom: 25px;
+    }
+
+    .model-dial-head{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

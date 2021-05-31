@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+
+.add-watch-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin: 30px auto;
+}
+
+label{
+    font-size: 30px;
+    font-weight: bolder;
+}

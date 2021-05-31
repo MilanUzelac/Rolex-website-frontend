@@ -1,0 +1,41 @@
+.man-watch-card{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+}
+
+.man-watch-card>p{
+    color: black;
+}
+
+.man-watch-image-wrapper{
+    overflow: hidden;
+}
+
+.man-watch-image-wrapper img{
+    transform: scale(1.1);
+    height: 300px;
+    transform: scale(1);
+    transition: transform 0.3s;
+    transition-timing-function: linear;
+}
+
+.man-watch-image-wrapper img:hover{
+    transform: scale(1.1);
+}
+
+.man-watch-head{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.man-watch-desc{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.order__filter_wrapper{
+    height: 150px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}

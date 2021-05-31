@@ -1,0 +1,186 @@
+.watchmaking__wrapper{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    margin:50px auto 100px auto;
+}
+
+
+.watchmaking__video_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+
+}
+
+.watchmaking__video{
+    margin: 0 auto;
+   
+}
+
+.watchmaking__wrapper_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.watchmaking__text_wrapper{
+    display: grid;
+    color: white;
+    padding: none;
+    margin-left: 20px;
+}
+
+.watchmaking__text_wrapper>*{
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .watchmaking__wrapper{
+        height: 410px;
+        margin: 40px auto 35px auto;
+    }
+
+    .watchmaking__video_div{
+        height: 100%;
+    }
+
+    .watchmaking__video{
+        width: 100%;
+    }
+
+    .watchmaking__wrapper_div{
+        height: 100%;
+    }
+
+    .watchmaking__text_wrapper>*{
+        font-size: 13px;
+        margin: 2px;
+    }
+
+ 
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .watchmaking__wrapper{
+        height: 210px;
+        background-color: green;
+        margin: 0px auto 0px auto;
+    }
+
+    .watchmaking__video_div{
+        height: 100%;
+    }
+
+    .watchmaking__video{
+        width: 100%;
+    }
+
+    .watchmaking__wrapper_div{
+        height: 100%;
+    }
+
+    .watchmaking__text_wrapper>*{
+        font-size: 13px;
+        margin: 2px;
+    }
+
+ 
+}
+
+
+/*.watch-making{
+    height: 50vh;
+}
+
+.watch-making video{
+    width:100%;
+    height: auto;
+}
+
+.watch-making p,h2{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    top: 50vmin;
+    left: 5vmin;
+}
+
+
+
+
+
+@media only screen and (max-width: 1500px){
+
+
+    .watch-making p,h2{
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        top: 45vmin;
+        left: 5vmin;
+    }
+
+
+}
+
+@media only screen and (max-width: 1300px){
+
+
+    .watch-making p,h2{
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        top: 40vmin;
+        left: 5vmin;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1100px){
+
+
+    .watch-making p,h2{
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        top: 28vmin;
+        left: 5vmin;
+    }
+       
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+    .watch-making p,h2{
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        top: 28vmin;
+        left: 5vmin;
+        font-size: 13px;
+    }
+
+
+}*/

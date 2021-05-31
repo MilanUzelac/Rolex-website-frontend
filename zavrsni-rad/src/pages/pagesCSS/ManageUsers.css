@@ -1,0 +1,31 @@
+.manage__users_wrapper{
+    width: 60%;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: 100%;
+    align-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.manage__users_card_wrapper{
+    height: max-content;
+    display: grid;
+    row-gap: 20px;
+}
+
+
+@media only screen and (max-width:1600px) {
+    .manage__users_wrapper{
+        width: 80%;
+        
+    }
+ }
+
+ @media only screen and (max-width:1600px) {
+    .manage__users_wrapper{
+        width: 95%
+    }
+    
+ }

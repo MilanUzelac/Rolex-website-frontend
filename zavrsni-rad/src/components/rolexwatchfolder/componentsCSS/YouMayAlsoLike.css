@@ -1,0 +1,110 @@
+.may-like-wrapper{
+    width: 62%;
+    margin: 0px auto 100px auto;
+  
+}
+
+.may-like{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.slider-div{
+    width: 100%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    overflow: hidden;
+ 
+}
+
+
+.slider-wrapper{
+    z-index: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.slider{
+    display: grid;
+    grid-auto-flow: column;
+    height: auto;
+    justify-content: space-around;
+    grid-template-columns: 33.33% 33.33% 33.33% 33.33% 33.33% 33.33%;
+    transition-duration:0.5s;
+}
+
+.btn-left{
+    align-self: center;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.btn-right{
+    align-self: center;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.toogle-span{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+
+.prev-span{
+    width: 95px;
+    border-radius: 3px;
+    height: 7px;
+    align-self: center;
+    cursor: pointer;
+    
+}
+
+.next-span{
+    width: 95px;
+    border-radius: 3px;
+    height: 7px;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1600px){
+   .may-like-wrapper{
+       width: 82.5%;
+   }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .may-like-wrapper{
+        width: 93.5%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .may-like-wrapper{
+        width: 90%;
+    }
+
+    .slider-wrapper{
+        overflow:auto;
+    }
+
+    .slider{
+        grid-template-columns: 50% 50% 50% 50% 50% 50%;
+    }
+
+    .toogle-span{
+        display: none;
+    }
+
+    .btn-left,.btn-right{
+        display: none;
+    }
+ 
+}

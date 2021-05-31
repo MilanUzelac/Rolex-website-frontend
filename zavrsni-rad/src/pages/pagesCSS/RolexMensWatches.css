@@ -1,0 +1,42 @@
+.mens-watches{
+    background: rgb(247, 247, 247) none repeat scroll 0% 0%;
+}
+
+.mens-watches-big-wrapper{
+    width: 60%;
+    margin: 50px auto 100px auto;
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    height: auto;
+    justify-content: space-around;
+    row-gap: 5px;
+
+}
+
+@media only screen and (max-width: 1600px){
+    .mens-watches-big-wrapper{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .mens-watches-big-wrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .mens-watches-big-wrapper{
+        width: 90%;
+        grid-template-columns: 100%;
+        margin-top: 45vh;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .mens-watches-big-wrapper{
+       
+        margin-top: 32vh;
+    }
+}

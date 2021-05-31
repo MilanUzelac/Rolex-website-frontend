@@ -1,0 +1,60 @@
+.nav-full-wrapper{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-nav{
+    width: 35%;
+    display: flex;
+
+    justify-content: start;
+}
+
+
+
+.center-nav{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-rolex-div{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-rolex-div img{
+    width: 100%;
+}
+
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+li{
+    margin:15px;
+    
+}
+
+.right-nav{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+
+

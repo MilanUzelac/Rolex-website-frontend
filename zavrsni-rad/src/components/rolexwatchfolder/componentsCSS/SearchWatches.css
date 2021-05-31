@@ -1,0 +1,16 @@
+.searchwatches__wrapper{
+    height: 20%;
+    width: max-content;
+    display: grid;
+    place-items: center;
+}
+
+.search__textfield{
+    width: 230px;
+}
+
+@media only screen and (max-width:800px) {
+    .search__textfield{
+        width: 160px;
+    }
+}

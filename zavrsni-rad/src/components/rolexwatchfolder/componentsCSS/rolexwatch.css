@@ -1,0 +1,53 @@
+.head-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rolex-short-desc-wrapper{
+    margin-top: 30px;
+}
+
+.rolex-short-desc,h1{
+    margin: 5px auto;
+    color: goldenrod;
+    text-align: center;
+}
+.rolex-short-desc:last-child{
+    margin-bottom: 50px !important;
+}
+
+.watch-daynight-wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.watchImage{
+    position: relative;
+    left: 25%;
+    z-index: 1;
+}
+
+.night-watchImage{
+    z-index: 0;
+    position: relative;
+    left: -25%;
+    opacity: 1;
+    
+}
+
+.day-night-span{
+    color: goldenrod;
+    cursor: pointer;
+    margin: 0px 0px 8px 0px;
+}
+
+.span-day{
+    color: goldenrod;
+}
+
+.span-night,.dash-span{
+    color: white;
+}

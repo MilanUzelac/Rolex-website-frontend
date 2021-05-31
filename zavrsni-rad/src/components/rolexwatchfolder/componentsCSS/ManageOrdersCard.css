@@ -1,0 +1,61 @@
+.order__card_wrapper{
+    width: auto;
+    height: max-content;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+}
+
+.user__info{
+    width: 100%;
+    height: max-content;
+}
+
+.order_user_h1{
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: green;
+}
+
+.order_user_h3{
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.order_cards_wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-items: center;
+    padding: 10px;
+    row-gap: 15px;
+}
+
+.order_bill_wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.button_div{
+    display: grid;
+    place-items: end;
+}
+
+
+@media only screen and (max-width:1600px){
+    .order_cards_wrapper{
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .order_bill_wrapper{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    .order_cards_wrapper{
+        grid-template-columns: 50% 50%;
+    }
+}

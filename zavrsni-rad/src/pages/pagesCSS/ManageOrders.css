@@ -1,0 +1,26 @@
+.manage__orders_wrapper{
+    height: max-content;
+    width: 60%;
+    margin: 220px auto 50px auto;
+
+}
+
+.manage__orders_card_wrapper{
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 100%;
+    row-gap: 50px;
+}
+
+@media only screen and (max-width:1600px){
+    .manage__orders_wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .manage__orders_wrapper{
+        width: 100%;
+    }
+}

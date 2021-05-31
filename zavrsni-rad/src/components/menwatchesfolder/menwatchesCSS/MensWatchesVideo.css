@@ -1,0 +1,105 @@
+.head-video{
+object-fit: cover;
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-cover{
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    width: 100vw;
+    height: 98.5vh;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+    z-index: 5;
+}
+
+.video-mens-wrapper {
+    position: relative;
+    height: 90vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35%;
+}
+
+.mens-text{
+    font-size:50px;
+    color: white;
+    z-index: 6;
+    align-self: center;
+}
+
+.scroll-down{
+    animation: 1s linear 0s infinite normal none changewidth;
+    justify-self: center;
+    padding-top: 25vh;
+    z-index: 6;
+}
+
+@keyframes changewidth {
+    from {
+        opacity: 1;
+    }
+  
+    to {
+        opacity: 0;
+        transform: translateY(6vh);
+        
+    }
+  }
+
+
+@media only screen and (max-width:1700px){
+
+    .scroll-down{
+         padding-top: 14vh;
+     }
+     .head-video{
+        height: 90vh;
+        
+      }
+      .video-cover{
+          height: 101vh;
+      }
+  }
+  
+
+@media only screen and (max-width:1500px){
+
+  .scroll-down{
+       padding-top: 14vh;
+   }
+   .head-video{
+      height: 90vh;
+      
+    }
+    .video-cover{
+        height: 101vh;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+
+   .scroll-down{
+       padding-top: 30vh;
+   }
+   .head-video{
+        height: 100vh;
+    }
+    .video-cover{
+        height: 111.1vh;
+    }
+    .mens-text{
+        padding-top: 13vh;
+        font-size:30px;
+        color: white;
+        z-index: 6;
+        align-self: center;
+    }
+    
+}

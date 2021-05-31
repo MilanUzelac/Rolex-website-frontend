@@ -1,0 +1,392 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.homepage{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.about-rolex-watches{
+    width:60%;
+    margin: 50px auto 0px auto;
+}
+
+.about-rolex-watches p{
+    color: black !important;
+    left: 0% !important;
+    font-size: 25px;
+    text-align: center;
+}
+
+.special{
+    width:60%;
+    height:90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.special .imageWrapper{
+    width:100%;
+}
+
+.imageWrapper img{
+    padding: 10px;
+    width:360px;
+    height: 450px;
+}
+
+
+.imageWrapper h2{
+    position: relative;
+    top:25%;
+    left: 3%;
+    text-align: center;
+    margin: 0px;
+    color: goldenrod;
+    width: 90%;
+   
+}
+
+.discover-rolex{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discover-rolex p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discover-rolex .discover-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*
+<div className="video-wrapper2">
+                <div className="textWatchmaking">
+                    <p>Watchmaking</p>
+                    <h1>ROLEX<br></br>PERPETUAL<br></br>MOVEMENTS</h1>
+                    <h3>PRECISION, ROBUSTNESS,<br></br>RELIABILITY</h3>
+                </div>
+
+                <video className="video2" loop autoPlay muted>
+                    <source src={frontPagePerpetualImg} type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                    </video>
+            </div>
+
+*/
+
+@media only screen and (max-width: 1700px) {
+
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .special {
+        width:70%;
+       
+    }
+
+    .imageWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageWrapper img{
+        width:100%;
+        transform: scale(0.9);
+        z-index: 0;
+    }
+
+    .imageWrapper h2{
+        position: relative;
+        top:30%;
+        z-index: 1;
+    }
+
+    .video-wrapper2{
+        margin-top: 6vh;
+    }
+
+    .video-wrapper2 .video2{
+        width: 100%;
+    }
+
+    .video-wrapper2 .textWatchmaking{
+        position: relative;
+        top: 29vh;
+        left: 6vw;
+    }
+
+    .textWatchmaking p,h3{
+        font-size: 20px;
+    }
+
+    .textWatchmaking h1{
+        font-size: 35px;
+    }
+
+    .discover-rolex{
+        width: 60%;
+    }
+
+    .discover-rolex .discover-wrapper{
+        height: auto;
+    }
+
+    .about-rolex-watches p{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .special {
+        width:95%;
+        height: 95%;
+   
+        
+    }
+
+    .imageWrapper{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageWrapper img{
+        width:100%;
+        transform: scale(0.9);
+        z-index: 0;
+    }
+
+    .imageWrapper h2{
+        position: relative;
+        top:30%;
+        z-index: 1;
+       
+    }
+
+    .video-wrapper2 .video2{
+        width: 100%;
+    }
+
+    .video-wrapper2{
+        margin-top: 10vh;
+    }
+
+    .video-wrapper2 .textWatchmaking{
+        position: relative;
+        top: 14vh;
+        left: 10vw;
+        
+    }
+
+    .textWatchmaking p,h3{
+        font-size: 15px;
+    }
+
+    .textWatchmaking h1{
+        font-size: 30px;
+    }
+
+    .discover-rolex{
+        width: 90%;
+    }
+
+    .discover-rolex .discover-wrapper{
+        height: auto;
+    }
+
+    .about-rolex-watches p{
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .special {
+        width:95%;
+        height: 95%; 
+    }
+
+    .imageWrapper{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageWrapper img{
+        width:100%;
+        height: 90%;
+        z-index: 0;
+    }
+
+    .imageWrapper h2{
+        position: relative;
+        top:30%;
+        z-index: 1;
+       
+    }
+
+    .video-wrapper2{
+        margin-top: 10vh;
+    }
+
+
+    .video-wrapper2 .textWatchmaking{
+        position: relative;
+        top: 9vh;
+        left: 10vw;
+        
+    }
+
+    .textWatchmaking p,h3{
+        font-size: 15px;
+    }
+
+    .textWatchmaking h1{
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+    
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .about-rolex-watches{
+        margin-top: 20vmin;
+        text-align: center;
+        padding:30px;
+        width:90%;
+        border-top:none;
+    }
+
+
+    .special{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .homepage{
+        overflow-x: hidden;
+    }
+
+    .imageWrapper img{
+       width:100%;
+       padding:0px;
+    }
+    
+    .video-wrapper2{
+        width:90%;
+        height:auto;
+        margin-top: 15vh;
+    }
+
+    .video-wrapper2 .video2{
+        width: 100%;
+        margin-top: -27vh;
+    }
+
+
+    .video-wrapper2 .textWatchmaking{
+        position: relative;
+        top: 1vh;
+        left: 7%;
+        width: 50px;
+    }
+
+    .textWatchmaking h1{
+        font-size: 18px;
+        width: 160px;
+    }
+
+    .textWatchmaking p,h3{
+        text-align: left !important;
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .discover-rolex{
+        width: 100%;
+    }
+
+    .discover-rolex .discover-wrapper{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+   
+    
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .video-wrapper2 .textWatchmaking{
+        position: relative;
+        top: 0vh;
+        left: 7%;
+        width: 50px;
+    }
+
+    .video-wrapper2 .video2{
+        width: 100%;
+        margin-top: -25vh;
+    }
+
+    .video-wrapper2{
+        margin-top: 7vh;
+    }
+
+    
+
+}

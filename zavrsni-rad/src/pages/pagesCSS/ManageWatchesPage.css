@@ -1,0 +1,73 @@
+.managewatches__card_wrapper{
+    padding-top: 12px;
+    width: 60%;
+    height: max-content;
+    padding-bottom: 50px;
+    align-self: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    row-gap: 12px;
+    position: relative;
+}
+
+
+@media only screen and (max-width:1600px) {
+    .managewatches__card_wrapper{
+        width: 70%;
+        row-gap: 15px;
+    }
+}
+
+@media only screen and (max-width:1550px) {
+    .managewatches__card_wrapper{
+        width: 77%;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .managewatches__card_wrapper{
+        row-gap: 12px;
+        grid-template-columns: 25% 25% 25% 25%;
+    } 
+}
+
+@media only screen and (max-width:1150px) {
+    .managewatches__card_wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .managewatches__card_wrapper{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .managewatches__card_wrapper{
+        width: 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .managewatches__card_wrapper{
+        width: 80%;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .managewatches__card_wrapper{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .managewatches__card_wrapper{
+        grid-template-columns: 50% 50%;
+    }
+}

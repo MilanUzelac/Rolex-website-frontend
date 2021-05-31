@@ -1,0 +1,19 @@
+.managewatches{
+    display: flex;
+    flex-direction: column;
+}
+.managewatches_backround{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-image: url("http://rolexwebsite.com/api/watches/images/air-king/airkingBackground.jpg");
+    display: grid;
+    place-items: center;
+}
+
+.managewatches_backround>h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+}

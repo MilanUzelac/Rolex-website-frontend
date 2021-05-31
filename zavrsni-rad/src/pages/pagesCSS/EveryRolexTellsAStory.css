@@ -1,0 +1,58 @@
+.rolex__story{
+    display: grid;
+
+}
+.person__cards_wrapper{
+    width: 60%;
+    height: 100%;
+    place-self: center;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:1600px){
+    .person__cards_wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1400px){
+    .person__cards_wrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .person__cards_wrapper{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .person__cards_wrapper{
+        width: 95%;
+        gap: 0px;
+        margin-top: 250px;
+    }
+
+    .person__cards_wrapper>*{
+        width: 46.5vw;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .person__cards_wrapper{
+        grid-template-columns: 100%;
+        margin-top: 200px;
+    }
+
+
+
+    .person__cards_wrapper>*{
+        width: 92.5vw;
+    }
+}

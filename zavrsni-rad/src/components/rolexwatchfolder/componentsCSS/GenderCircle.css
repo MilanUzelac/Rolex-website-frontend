@@ -1,0 +1,31 @@
+.gender__circle_wrapper{
+    display: grid;
+    height: 110px;
+    justify-content: space-evenly;
+    width: 130px;
+    justify-self: center;
+    place-items: center;
+}
+
+.gender__circle_wrapper>img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.gender__circle_wrapper>img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    border: 1px solid greenyellow;
+}
+
+.gender__circle_wrapper>img{
+    border: 1px solid silver;
+}
+
+@media only screen and (max-width:800px) {
+    .gender__circle_wrapper{
+        justify-content: space-between;
+        width: 90px;
+    }
+}
